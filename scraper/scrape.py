@@ -336,6 +336,6 @@ class SUcheduleCourseScraper:
 
 
 if __name__ == '__main__':
-    term = int(sys.argv[1])
+    term = 202601
     scraper = SUcheduleCourseScraper(term=term)
     scraper.run()
